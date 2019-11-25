@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-item" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-order" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-passport" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-parent/ego-search" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ego-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ego-parent/ego-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ego-parent/ego-order/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

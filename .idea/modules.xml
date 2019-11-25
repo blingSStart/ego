@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-cart/ego-cart.iml" filepath="$PROJECT_DIR$/ego-parent/ego-cart/ego-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-common/ego-common.iml" filepath="$PROJECT_DIR$/ego-parent/ego-common/ego-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-dubbo/ego-dubbo.iml" filepath="$PROJECT_DIR$/ego-parent/ego-dubbo/ego-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-interface/ego-interface.iml" filepath="$PROJECT_DIR$/ego-parent/ego-interface/ego-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-item/ego-item.iml" filepath="$PROJECT_DIR$/ego-parent/ego-item/ego-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-manage/ego-manage.iml" filepath="$PROJECT_DIR$/ego-parent/ego-manage/ego-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-order/ego-order.iml" filepath="$PROJECT_DIR$/ego-parent/ego-order/ego-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-parent.iml" filepath="$PROJECT_DIR$/ego-parent/ego-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-passport/ego-passport.iml" filepath="$PROJECT_DIR$/ego-parent/ego-passport/ego-passport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-pojo/ego-pojo.iml" filepath="$PROJECT_DIR$/ego-parent/ego-pojo/ego-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-portal/ego-portal.iml" filepath="$PROJECT_DIR$/ego-parent/ego-portal/ego-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-redis/ego-redis.iml" filepath="$PROJECT_DIR$/ego-parent/ego-redis/ego-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-parent/ego-search/ego-search.iml" filepath="$PROJECT_DIR$/ego-parent/ego-search/ego-search.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ego-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-passport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-parent/ego-search" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!--配置应用名称-->
+    <dubbo:application name="ego-dubbo"></dubbo:application>
+    <!--配置注册中心-->
+    <dubbo:registry address="zookeeper://192.168.78.133:2181"></dubbo:registry>
+    <!--配置协议-->
+    <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+    <!--暴露商品服务接口-->
+    <dubbo:service interface="com.ego.service.ItemService" ref="itemServiceImpl"></dubbo:service>
+    <!--注册商品提供者服务bean-->
+    <bean id="itemServiceImpl" class="com.ego.service.impl.ItemServiceImpl"></bean>
+    <!--暴露商品分类服务接口-->
+    <dubbo:service interface="com.ego.service.ItemCatService" ref="itemCatServiceImpl"></dubbo:service>
+    <!--注册商品分类提供者服务bean-->
+    <bean id="itemCatServiceImpl" class="com.ego.service.impl.ItemCatServiceImpl"></bean>
+    <!--暴露商品详情服务接口-->
+    <dubbo:service interface="com.ego.service.ItemDescService" ref="itemDescServiceImpl"></dubbo:service>
+    <!--注册商品详情提供者服务bean-->
+    <bean id="itemDescServiceImpl" class="com.ego.service.impl.ItemDescServiceImpl"></bean>
+    <!--暴露规格参数服务接口-->
+    <dubbo:service interface="com.ego.service.ItemParamService" ref="itemParamServiceImpl"></dubbo:service>
+    <!--注册规格参数提供者服务bean-->
+    <bean id="itemParamServiceImpl" class="com.ego.service.impl.ItemParamServiceImpl"></bean>
+    <!--暴露规格参数商品服务接口-->
+    <dubbo:service interface="com.ego.service.ItemParamItemService" ref="itemParamItemServiceImpl"></dubbo:service>
+    <!--注册规格参数商品提供者服务bean-->
+    <bean id="itemParamItemServiceImpl" class="com.ego.service.impl.ItemParamItemServiceImpl"></bean>
+    <!--暴露内容管理服务接口-->
+    <dubbo:service interface="com.ego.service.ContentCatService" ref="contentCatServiceImpl"></dubbo:service>
+    <!--注册内容管理提供者服务bean-->
+    <bean id="contentCatServiceImpl" class="com.ego.service.impl.ContentCatServiceImpl"></bean>
+    <!--暴露内容服务接口-->
+    <dubbo:service interface="com.ego.service.ContentService" ref="contentServiceImpl"></dubbo:service>
+    <!--注册内容提供者服务bean-->
+    <bean id="contentServiceImpl" class="com.ego.service.impl.ContentServiceImpl"></bean>
+    <!--暴露user服务接口-->
+    <dubbo:service interface="com.ego.service.UserService" ref="userServiceImpl"></dubbo:service>
+    <!--注册user提供者服务bean-->
+    <bean id="userServiceImpl" class="com.ego.service.impl.UserServiceImpl"></bean>
+
+    <!--暴露订单服务接口-->
+    <dubbo:service interface="com.ego.service.OrderService" ref="orderServiceImpl"></dubbo:service>
+    <!--注册订单提供者服务bean-->
+    <bean id="orderServiceImpl" class="com.ego.service.impl.OrderServiceImpl"></bean>
+
+    <!--暴露订单发货服务接口-->
+    <dubbo:service interface="com.ego.service.OrderShippingService" ref="orderShippingServiceImpl"></dubbo:service>
+    <!--注册订单发货提供者服务bean-->
+    <bean id="orderShippingServiceImpl" class="com.ego.service.impl.OrderShippingServiceImpl"></bean>
+
+    <!--暴露user服务接口-->
+    <dubbo:service interface="com.ego.service.OrderItemService" ref="orderItemServiceImpl"></dubbo:service>
+    <!--注册user提供者服务bean-->
+    <bean id="orderItemServiceImpl" class="com.ego.service.impl.OrderItemServiceImpl"></bean>
+    <!--加载其他配置文件-->
+    <import resource="classpath:spring-db.xml"></import>
+    <import resource="classpath:spring-mybatis.xml"></import>
+</beans>
